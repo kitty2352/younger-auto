@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-11-08 15:10:22</p>
-<p class='attribute'><strong>Duration:</strong> 0:01:38.201369</p>
-<p class='attribute'><strong>Status:</strong> Pass 8</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-11-08 15:30:51</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:24.474246</p>
+<p class='attribute'><strong>Status:</strong> Pass 7 Error 1</p>
 
 <p class='description'>登录功能测试</p>
 </div>
@@ -221,12 +221,12 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='passClass'>
+<tr class='errorClass'>
     <td>test_forest_animal.forestAnimalTest: 森林动植物-野生动物</td>
     <td>2</td>
-    <td>2</td>
+    <td>1</td>
     <td>0</td>
-    <td>0</td>
+    <td>1</td>
     <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
 </tr>
 
@@ -235,9 +235,54 @@ function showOutput(id, name) {
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_addAnimal_02: 新增档案-仅输入必填项</div></td>
-    <td colspan='5' align='center'>pass</td>
+<tr id='ft1.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_addAnimal_02: 新增档案-仅输入必填项</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        error</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: Traceback (most recent call last):
+  File "D:\PyPrg\web_auto3\case\test_forest_animal.py", line 42, in test_addAnimal_02
+    self.m.input_name("藏原羚")
+  File "D:\PyPrg\web_auto3\pages\forest_animal_page.py", line 42, in input_name
+    self.send_keys(self.loc_name, text)
+  File "D:\PyPrg\web_auto3\common\base.py", line 42, in send_keys
+    self.findElementNew(loctor).send_keys(_text)
+  File "D:\PyPrg\web_auto3\common\base.py", line 18, in findElementNew
+    ele = WebDriverWait(self.driver, 30, 0.5).until(expected_conditions.presence_of_element_located(locator))
+  File "D:\PyPrg\web_auto3\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "D:\PyPrg\web_auto3\case\test_forest_animal.py", line 42, in test_addAnimal_02
+    self.m.input_name("藏原羚")
+  File "D:\PyPrg\web_auto3\pages\forest_animal_page.py", line 42, in input_name
+    self.send_keys(self.loc_name, text)
+  File "D:\PyPrg\web_auto3\common\base.py", line 42, in send_keys
+    self.findElementNew(loctor).send_keys(_text)
+  File "D:\PyPrg\web_auto3\common\base.py", line 18, in findElementNew
+    ele = WebDriverWait(self.driver, 30, 0.5).until(expected_conditions.presence_of_element_located(locator))
+  File "D:\PyPrg\web_auto3\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
 </tr>
 
 <tr class='passClass'>
@@ -282,9 +327,9 @@ function showOutput(id, name) {
 <tr id='total_row'>
     <td>Total</td>
     <td>8</td>
-    <td>8</td>
+    <td>7</td>
     <td>0</td>
-    <td>0</td>
+    <td>1</td>
     <td>&nbsp;</td>
 </tr>
 </table>
