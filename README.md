@@ -10,4 +10,4 @@ report文件：存放测试报告
 
 # 使用方法
 
-运行run_all.py ，生成测试报告
+运行python  run_all.py ，生成测试报告

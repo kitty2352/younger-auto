@@ -13,6 +13,7 @@ class LoginYCW(Base):
     loc_error_username = ('xpath', '//*[@id="loginbox"]/form/nz-form-item[1]/nz-form-control/div/nz-form-explain/div')
     loc_error_password = ('xpath', '//*[@id="loginbox"]/form/nz-form-item[2]/nz-form-control/div/nz-form-explain/div')
 
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -40,6 +41,7 @@ class LoginYCW(Base):
         self.send_keys(self.loc_password, password)
         # 点击确认按钮
         self.click(self.loc_lgbtn)
+        time.sleep(3)
         self.click(self.loc_lgalert)
 
     # 获取错误结果
