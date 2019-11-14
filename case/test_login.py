@@ -1,7 +1,8 @@
 from selenium import webdriver
 import unittest
 from pages.login_page import LoginYCW
-
+import case
+import time
 
 class loginTest(unittest.TestCase):
     """
@@ -11,12 +12,13 @@ class loginTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Chrome()
+        cls.driver.maximize_window()
         cls.loginObj = LoginYCW(cls.driver)
         cls.driver.implicitly_wait(10)
 
     # 用例每次执行时运行
     def setUp(self):
-        self.driver.get("http://192.168.121.31/login")
+        self.driver.get(case.test_http)
 
     # 用例每次结束时执行
     def tearDown(self):
@@ -32,6 +34,8 @@ class loginTest(unittest.TestCase):
         """登录-用户名和密码都输入正确"""
         self.loginObj.login("admin", "123")
         self.assertTrue(self.driver.current_url == 'http://192.168.121.31/dashboard')
+        self.loginObj.click(self.loginObj.log_logout)
+        time.sleep(5)
 
     def test_login_02(self):
         """登录-用户名正确，密码错误"""

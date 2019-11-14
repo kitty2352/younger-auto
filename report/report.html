@@ -189,11 +189,11 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-11-12 16:57:22</p>
-<p class='attribute'><strong>Duration:</strong> 0:04:15.046172</p>
-<p class='attribute'><strong>Status:</strong> Pass 12 Failure 1 Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-11-14 14:22:11</p>
+<p class='attribute'><strong>Duration:</strong> 0:10:05.100904</p>
+<p class='attribute'><strong>Status:</strong> Pass 41 Failure 1 Error 1</p>
 
-<p class='description'>登录功能测试</p>
+<p class='description'>web页面各个功能模块</p>
 </div>
 
 
@@ -221,49 +221,60 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>test_fire_analysis_rescueteam.rescueteamTest: 森林防火-防火资源分析</td>
-    <td>6</td>
-    <td>4</td>
-    <td>1</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c1',6)">Detail</a></td>
+<tr class='passClass'>
+    <td>test_fire_analysis_rescueteam.rescueteamTest</td>
+    <td>18</td>
+    <td>18</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',18)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_add01</div></td>
+    <td class='none'><div class='testcase'>test_add01: 新增扑救队伍-不输入任何数据</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_add02</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
-
-<tr id='ft1.3' class='none'>
-    <td class='errorCase'><div class='testcase'>test_add03</div></td>
+    <td class='none'><div class='testcase'>test_add02: 新增扑救队伍-仅输入必填项</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
 
-    <div id='div_ft1.3' class="popup_window">
+    <div id='div_pt1.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.3: Traceback (most recent call last):
-  File "D:\PyPrg\web_auto3\case\test_fire_analysis_rescueteam.py", line 44, in test_add03
-    self.r.addRescueTeam('test04', '环球中心海洋乐园', '张大大', '13625548526', '拖鞋：4，救生圈：10，手机：10，电脑：100', '98.2626', '37.26226', '纯属娱乐')
-TypeError: addRescueTeam() takes 1 positional argument but 9 were given
-Traceback (most recent call last):
-  File "D:\PyPrg\web_auto3\case\test_fire_analysis_rescueteam.py", line 44, in test_add03
-    self.r.addRescueTeam('test04', '环球中心海洋乐园', '张大大', '13625548526', '拖鞋：4，救生圈：10，手机：10，电脑：100', '98.2626', '37.26226', '纯属娱乐')
-TypeError: addRescueTeam() takes 1 positional argument but 9 were given
+pt1.2: 
 
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add03: 新增扑救队伍-完整输入</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: 
 
         </pre>
     </div>
@@ -273,32 +284,329 @@ TypeError: addRescueTeam() takes 1 positional argument but 9 were given
 </tr>
 
 <tr id='pt1.4' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_add04</div></td>
+    <td class='none'><div class='testcase'>test_add04: 新增扑救队伍-经纬度格式校验1</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='ft1.5' class='none'>
-    <td class='failCase'><div class='testcase'>test_add05</div></td>
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add05: 新增扑救队伍-经纬度格式校验2</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add06: 新增扑救队伍-经纬度格式校验4</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.7' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_delete01: 批量删除-空删除</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.8' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_delete02: 单项删除</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.9' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_delete03: 全选删除</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.10' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_pagination01: 分页-点击上一页(非首页)</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.11' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_pagination02: 分页-点击下一页(非最后一页)</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.12' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_pagination03: 分页-点击向后5页</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.13' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_pagination04: 分页-点击向前5页</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.14' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_pagination05: 分页-点击下一页(最后一页)</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.15' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_pagination06: 分页-点击上一页(非首页)</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.16' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_search01: 搜索-空搜索</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.17' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_search02: 搜索-查询内容中包含字符</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.5')" >
-        fail</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.17')" >
+        pass</a>
 
-    <div id='div_ft1.5' class="popup_window">
+    <div id='div_pt1.17' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.5').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.17').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.5: Traceback (most recent call last):
-  File "D:\PyPrg\web_auto3\case\test_fire_analysis_rescueteam.py", line 68, in test_add05
-    self.assertTrue(result1 and result2)
+pt1.17: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.18' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_search03: 搜索-模糊查询</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.18')" >
+        pass</a>
+
+    <div id='div_pt1.18' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.18').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.18: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='failClass'>
+    <td>test_fire_analysis_waterResource.waterResourceTest</td>
+    <td>18</td>
+    <td>17</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',18)">Detail</a></td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add01: 新增水源地-不输入任何数据</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt2.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add02: 新增水源地-仅输入必填项</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.2')" >
+        pass</a>
+
+    <div id='div_pt2.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.2: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add03: 新增水源地-完整输入</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.3')" >
+        pass</a>
+
+    <div id='div_pt2.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.3: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add04: 新增水源地-经纬度格式校验1</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt2.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add05: 新增水源地-经纬度格式校验2</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt2.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add06: 新增水源地-经纬度格式校验4</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt2.7' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_delete01: 批量删除-空删除</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt2.8' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_delete02: 单项删除</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt2.9' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_delete03: 全选删除</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt2.10' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_pagination01: 分页-点击上一页(非首页)</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.10')" >
+        pass</a>
+
+    <div id='div_pt2.10' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.10').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.10: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.11' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_pagination02: 分页-点击下一页(非最后一页)</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.11')" >
+        pass</a>
+
+    <div id='div_pt2.11' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.11').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.11: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.12' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_pagination03: 分页-点击向后5页</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt2.13' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_pagination04: 分页-点击向前5页</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt2.14' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_pagination05: 分页-点击下一页(最后一页)</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt2.15' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_pagination06: 分页-点击上一页(非首页)</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt2.16' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_search01: 搜索-空搜索</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt2.17' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_search02: 搜索-查询内容中包含字符</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.17')" >
+        pass</a>
+
+    <div id='div_pt2.17' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.17').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.17: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft2.18' class='none'>
+    <td class='failCase'><div class='testcase'>test_search03: 搜索-模糊查询</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.18')" >
+        fail</a>
+
+    <div id='div_ft2.18' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.18').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.18: Traceback (most recent call last):
+  File "D:\PyPrg\web_auto3\case\test_fire_analysis_waterResource.py", line 176, in test_search03
+    self.assertTrue(result)
 AssertionError: False is not true
 Traceback (most recent call last):
-  File "D:\PyPrg\web_auto3\case\test_fire_analysis_rescueteam.py", line 68, in test_add05
-    self.assertTrue(result1 and result2)
+  File "D:\PyPrg\web_auto3\case\test_fire_analysis_waterResource.py", line 176, in test_search03
+    self.assertTrue(result)
 AssertionError: False is not true
 
 
@@ -309,28 +617,73 @@ AssertionError: False is not true
     </td>
 </tr>
 
-<tr id='pt1.6' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_add06</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
-
-<tr class='passClass'>
-    <td>test_forest_animal.forestAnimalTest: 森林动植物-野生动物</td>
-    <td>2</td>
-    <td>2</td>
+<tr class='errorClass'>
+    <td>unittest.suite._ErrorHolder</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c2',2)">Detail</a></td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c3',1)">Detail</a></td>
 </tr>
 
-<tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_addAnimal_01: 新增档案-不输入任何数据</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
+<tr id='ft3.1' class='none'>
+    <td class='errorCase'><div class='testcase'>forestAnimalTest)</div></td>
+    <td colspan='5' align='center'>
 
-<tr id='pt2.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_addAnimal_02: 新增档案-仅输入必填项</div></td>
-    <td colspan='5' align='center'>pass</td>
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
+        error</a>
+
+    <div id='div_ft3.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.1: Traceback (most recent call last):
+  File "D:\PyPrg\web_auto3\case\test_forest_animal.py", line 17, in setUpClass
+    cls.m.login()
+  File "D:\PyPrg\web_auto3\pages\forest_animal_page.py", line 82, in login
+    self.click(self.loc_animal)
+  File "D:\PyPrg\web_auto3\common\base.py", line 39, in click
+    self.findElementNew(loctor).click()
+  File "D:\PyPrg\web_auto3\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\PyPrg\web_auto3\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\PyPrg\web_auto3\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\PyPrg\web_auto3\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element &lt;img _ngcontent-oct-c16="" alt="" class="img" src="/assets/dashboardUi/animals-plants-footer.png"&gt; is not clickable at point (880, 828). Other element would receive the click: &lt;div role="dialog" tabindex="-1" class="ant-modal-wrap " style="z-index: 1000;"&gt;...&lt;/div&gt;
+  (Session info: chrome=76.0.3809.132)
+
+Traceback (most recent call last):
+  File "D:\PyPrg\web_auto3\case\test_forest_animal.py", line 17, in setUpClass
+    cls.m.login()
+  File "D:\PyPrg\web_auto3\pages\forest_animal_page.py", line 82, in login
+    self.click(self.loc_animal)
+  File "D:\PyPrg\web_auto3\common\base.py", line 39, in click
+    self.findElementNew(loctor).click()
+  File "D:\PyPrg\web_auto3\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\PyPrg\web_auto3\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\PyPrg\web_auto3\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\PyPrg\web_auto3\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element &lt;img _ngcontent-oct-c16="" alt="" class="img" src="/assets/dashboardUi/animals-plants-footer.png"&gt; is not clickable at point (880, 828). Other element would receive the click: &lt;div role="dialog" tabindex="-1" class="ant-modal-wrap " style="z-index: 1000;"&gt;...&lt;/div&gt;
+  (Session info: chrome=76.0.3809.132)
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
 </tr>
 
 <tr class='passClass'>
@@ -339,43 +692,43 @@ AssertionError: False is not true
     <td>6</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c3',6)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c4',6)">Detail</a></td>
 </tr>
 
-<tr id='pt3.1' class='hiddenRow'>
+<tr id='pt4.1' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_login_01: 登录-用户名和密码都输入正确</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt3.2' class='hiddenRow'>
+<tr id='pt4.2' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_login_02: 登录-用户名正确，密码错误</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt3.3' class='hiddenRow'>
+<tr id='pt4.3' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_login_03: 登录-用户名错误 密码正确</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt3.4' class='hiddenRow'>
+<tr id='pt4.4' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_login_04: 登录-不输入用户名和密码</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt3.5' class='hiddenRow'>
+<tr id='pt4.5' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_login_05: 登录-不输入用户名</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt3.6' class='hiddenRow'>
+<tr id='pt4.6' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_login_06: 登录-不输入密码</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>14</td>
-    <td>12</td>
+    <td>43</td>
+    <td>41</td>
     <td>1</td>
     <td>1</td>
     <td>&nbsp;</td>

@@ -1,22 +1,22 @@
 from selenium import webdriver
-from pages.forest_fireProofing_analysis_page1 import forest_fireProofing_analysis_page1
+from pages.forest_fireProofing_analysis_page2 import forest_fireProofing_analysis_page2
 import case
 import unittest
 import time
 
-class rescueteamTest(unittest.TestCase):
+class waterResourceTest(unittest.TestCase):
     """
-    森林防火-防火资源分析-扑救队伍功能
+    森林防火-防火资源分析-水源地功能
     """
 
     # 用例前置条件
     @classmethod
     def setUpClass(cls):
-        # 进入森林防火- 防火资源分析-扑救队伍
+        # 进入森林防火- 防火资源分析-水源地界面
         cls.driver = webdriver.Chrome()
         cls.driver.maximize_window()
         cls.driver.get(case.test_http)
-        cls.r = forest_fireProofing_analysis_page1(cls.driver)
+        cls.r = forest_fireProofing_analysis_page2(cls.driver)
         cls.r.login()
 
     @classmethod
@@ -25,28 +25,27 @@ class rescueteamTest(unittest.TestCase):
 
     def tearDown(self):
         self.driver.refresh()
-        time.sleep(2)
 
     def test_add01(self):
-        """新增扑救队伍-不输入任何数据"""
-        self.r.addRescueTeam1('', '')
+        """新增水源地-不输入任何数据"""
+        self.r.addWaterResource1('', '', '')
         self.assertTrue(self.r.messesge_is_exist())
 
     def test_add02(self):
-        """新增扑救队伍-仅输入必填项"""
-        self.r.addRescueTeam1('test03', '大河边上', latitude='105.26226', longitude='38.2626')
+        """新增水源地-仅输入必填项"""
+        self.r.addWaterResource1('test04', '大河边上', '水库', latitude='105.26226', longitude='38.2626')
         keyword = self.r.get_resource_name()
         self.assertTrue(self.r.get_search_result(keyword))
         time.sleep(5)
 
     def test_add03(self):
-        """新增扑救队伍-完整输入"""
-        self.r.addRescueTeam1('test04', '环球中心海洋乐园', '张大大', '13625548526', '拖鞋：4，救生圈：10，手机：10，电脑：100', '98.2626', '37.26226', '纯属娱乐')
+        """新增水源地-完整输入"""
+        self.r.addWaterResource1('test05', '环球中心海洋乐园', '堤坝', '人工', '888', '98.2626', '37.26226', '测试数据，仅供展示')
         keyword = self.r.get_resource_name()
         self.assertTrue(self.r.get_search_result(keyword))
 
     def test_add04(self):
-        """新增扑救队伍-经纬度格式校验1"""
+        """新增水源地-经纬度格式校验1"""
         self.r.click(self.r.loc_addButton)
         self.r.send_keys(self.r.loc_latitude, "181")
         self.r.send_keys(self.r.loc_longitude, '95')
@@ -55,7 +54,7 @@ class rescueteamTest(unittest.TestCase):
         self.assertTrue(result1 and result2)
 
     def test_add05(self):
-        """新增扑救队伍-经纬度格式校验2"""
+        """新增水源地-经纬度格式校验2"""
         self.r.click(self.r.loc_addButton)
         self.r.send_keys(self.r.loc_latitude, "-181")
         self.r.send_keys(self.r.loc_longitude, '-91')
@@ -64,7 +63,7 @@ class rescueteamTest(unittest.TestCase):
         self.assertTrue(result1 and result2)
 
     def test_add06(self):
-        """新增扑救队伍-经纬度格式校验3"""
+        """新增水源地-经纬度格式校验3"""
         self.r.click(self.r.loc_addButton)
         self.r.send_keys(self.r.loc_latitude, "我vvfd ")
         self.r.send_keys(self.r.loc_longitude, '@151515')
@@ -73,7 +72,7 @@ class rescueteamTest(unittest.TestCase):
         self.assertTrue(result1 and result2)
 
     def test_add06(self):
-        """新增扑救队伍-经纬度格式校验4"""
+        """新增水源地-经纬度格式校验4"""
         self.r.click(self.r.loc_addButton)
         self.r.send_keys(self.r.loc_latitude, "105.2626")
         self.r.send_keys(self.r.loc_longitude, '37.26266')
@@ -111,9 +110,9 @@ class rescueteamTest(unittest.TestCase):
         if pageNumber == 1:
             return 1
         self.r.click_last_page()
-        pageNumber = pageNumber - 1
+        pageNumber = pageNumber-1
         self.r.click_last_page()
-        pageNumber = pageNumber - 1
+        pageNumber = pageNumber-1
         self.assertEqual(self.r.get_current_page(), pageNumber)
 
     def test_pagination02(self):

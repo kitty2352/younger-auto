@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="36984a8c-70a7-406f-8dcb-b9ac18d67f43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_fire_analysis_rescueteam.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_fire_analysis_rescueteam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_forest_animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_forest_animal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/forest_animal_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forest_animal_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/forest_fireProofing_analysis_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forest_fireProofing_analysis_page1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_all.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,26 +19,74 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_add03.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_add03 Coverage Results" MODIFIED="1573549418179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete03.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete03 Coverage Results" MODIFIED="1573555030508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete02.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete02 Coverage Results" MODIFIED="1573554882182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_login1_loginTest.coverage" NAME="Unittests for test_login1.loginTest Coverage Results" MODIFIED="1569385440827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/web_auto3$forest_fireProofing_analysis_page.coverage" NAME="forest_fireProofing_analysis_page Coverage Results" MODIFIED="1573466143455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
-    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_add02.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_add02 Coverage Results" MODIFIED="1573546521746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_add03.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_add03 Coverage Results" MODIFIED="1573634729351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_add05.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_add05 Coverage Results" MODIFIED="1573696604351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_search02.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_search02 Coverage Results" MODIFIED="1573639695071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_pagination04.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_pagination04 Coverage Results" MODIFIED="1573698736140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_01.coverage" NAME="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_01 Coverage Results" MODIFIED="1573712485503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete Coverage Results" MODIFIED="1573552458358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/web_auto3$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1573548613621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_in_test_fire_analysis_rescueteam_py.coverage" NAME="Unittests in test_fire_analysis_rescueteam.py Coverage Results" MODIFIED="1573640347115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_search03.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_search03 Coverage Results" MODIFIED="1573699206447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_pagination06.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_pagination06 Coverage Results" MODIFIED="1573698786444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_in_test_forest_animal_py.coverage" NAME="Unittests in test_forest_animal.py Coverage Results" MODIFIED="1573713418987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_add03.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_add03 Coverage Results" MODIFIED="1573696441248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_pagination03.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_pagination03 Coverage Results" MODIFIED="1573700255031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_pagination06.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_pagination06 Coverage Results" MODIFIED="1573627693219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_delete02.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_delete02 Coverage Results" MODIFIED="1573697822600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_pagination3.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_pagination3 Coverage Results" MODIFIED="1573627144236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete01.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete01 Coverage Results" MODIFIED="1573552668261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_pagination01.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_pagination01 Coverage Results" MODIFIED="1573698598560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/web_auto3$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1569392117879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/web_auto3$Unittests_in_test_fire_analysis_rescueteam_py.coverage" NAME="Unittests in test_fire_analysis_rescueteam.py Coverage Results" MODIFIED="1573549469249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/web_auto3$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1573545819075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_04.coverage" NAME="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_04 Coverage Results" MODIFIED="1573711707282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_add06.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_add06 Coverage Results" MODIFIED="1573696633538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_search02.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_search02 Coverage Results" MODIFIED="1573699144903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete03.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete03 Coverage Results" MODIFIED="1573638212117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_pagination01.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_pagination01 Coverage Results" MODIFIED="1573698817379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$forest_fireProofing_analysis_page.coverage" NAME="forest_fireProofing_analysis_page Coverage Results" MODIFIED="1573466143455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_add01.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_add01 Coverage Results" MODIFIED="1573695451218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_pagination02.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_pagination02 Coverage Results" MODIFIED="1573698648123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_03.coverage" NAME="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_03 Coverage Results" MODIFIED="1573712040756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_login_loginTest_test_login_01.coverage" NAME="Unittests for test_login.loginTest.test_login_01 Coverage Results" MODIFIED="1573701227446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_pagination04.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_pagination04 Coverage Results" MODIFIED="1573699049774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_02.coverage" NAME="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_02 Coverage Results" MODIFIED="1573711656538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_add04.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_add04 Coverage Results" MODIFIED="1573696509505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_delete01.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_delete01 Coverage Results" MODIFIED="1573696835634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1573701313209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_search01.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_search01 Coverage Results" MODIFIED="1573629502247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_pagination03.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_pagination03 Coverage Results" MODIFIED="1573700218902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_pagination4.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_pagination4 Coverage Results" MODIFIED="1573625860473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete02.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete02 Coverage Results" MODIFIED="1573638174918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_login1_loginTest.coverage" NAME="Unittests for test_login1.loginTest Coverage Results" MODIFIED="1569385440827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_add02.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_add02 Coverage Results" MODIFIED="1573639610686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_login_loginTest_test_login_02.coverage" NAME="Unittests for test_login.loginTest.test_login_02 Coverage Results" MODIFIED="1573701258408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1573548613621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_pagination02.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_pagination02 Coverage Results" MODIFIED="1573698845517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_pagination05.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_pagination05 Coverage Results" MODIFIED="1573627616366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_search03.coverage" NAME="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_search03 Coverage Results" MODIFIED="1573634451562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_pagination05.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_pagination05 Coverage Results" MODIFIED="1573698759636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_add02.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_add02 Coverage Results" MODIFIED="1573696208878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_search01.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_search01 Coverage Results" MODIFIED="1573699115644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/web_auto3$Unittests_for_test_fire_analysis_waterResource_waterResourceTest_test_delete03.coverage" NAME="Unittests for test_fire_analysis_waterResource.waterResourceTest.test_delete03 Coverage Results" MODIFIED="1573697872572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/test_login.py">
+        <entry file="file://$PROJECT_DIR$/pages/forest_fireProofing_analysis_page1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="-70">
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/test_forest_animal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -43,35 +95,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/forest_fireProofing_analysis_page.py">
+        <entry file="file://$PROJECT_DIR$/pages/forest_animal_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <element signature="e#962#1291#0" />
-                <element signature="e#3349#3395#0" />
-                <element signature="e#3962#3982#0" />
-                <element signature="e#3465#3481#0" />
-                <element signature="e#3558#3765#0" />
-                <element signature="e#3818#3861#0" />
-                <element signature="e#3960#3976#0" />
-                <element signature="e#4300#4316#0" />
-                <element signature="e#4542#4558#0" />
-                <element signature="e#4673#4693#0" />
-                <element signature="e#1781#1873#0" />
-                <element signature="e#5940#6514#0" />
-                <element signature="e#6404#6840#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/test_fire_analysis_rescueteam.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="99" column="54" selection-start-line="99" selection-start-column="54" selection-end-line="99" selection-end-column="54" />
+            <state relative-caret-position="455">
+              <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -80,25 +107,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_all.py">
+        <entry file="file://$PROJECT_DIR$/common/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="197">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="300">
-                <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -112,6 +127,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>search_res</find>
+      <find>resource_name</find>
+      <find>loc_inputlan</find>
+      <find>loc_confirm</find>
+      <find>app-team</find>
+      <find>pageNumber</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>app-water-source</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -120,20 +148,26 @@
       <list>
         <option value="$PROJECT_DIR$/Common.py" />
         <option value="$PROJECT_DIR$/common/HTMLTestRunner.py" />
-        <option value="$PROJECT_DIR$/pages/forest_animal_page.py" />
         <option value="$PROJECT_DIR$/pages/forest_fireProofing_analysis.py" />
-        <option value="$PROJECT_DIR$/pages/login_page.py" />
-        <option value="$PROJECT_DIR$/case/test_login.py" />
         <option value="$PROJECT_DIR$/run_all.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/case/test_fire_analysis_rescueteam.py" />
+        <option value="$PROJECT_DIR$/case/__init__.py" />
+        <option value="$PROJECT_DIR$/common/base.py" />
         <option value="$PROJECT_DIR$/pages/forest_fireProofing_analysis_page.py" />
+        <option value="$PROJECT_DIR$/pages/forest_fireProofing_analysis_page1.py" />
+        <option value="$PROJECT_DIR$/pages/forest_fireProofing_analysis_page2.py" />
+        <option value="$PROJECT_DIR$/case/test_fire_analysis_waterResource.py" />
+        <option value="$PROJECT_DIR$/case/test_fire_analysis_rescueteam.py" />
+        <option value="$PROJECT_DIR$/pages/login_page.py" />
+        <option value="$PROJECT_DIR$/case/test_login.py" />
+        <option value="$PROJECT_DIR$/case/test_forest_animal.py" />
+        <option value="$PROJECT_DIR$/pages/forest_animal_page.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
-    <option name="y" value="19" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -143,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +209,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,8 +237,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete03">
-    <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test_forest_animal.py">
+    <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="web_auto3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,11 +249,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fire_analysis_rescueteam.rescueteamTest.test_delete&quot;" />
+      <option name="_new_target" value="&quot;test_forest_animal.forestAnimalTest.test_addAnimal_01&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_02" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="web_auto3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,11 +264,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fire_analysis_rescueteam.rescueteamTest.test_delete01&quot;" />
+      <option name="_new_target" value="&quot;test_forest_animal.forestAnimalTest.test_addAnimal_02&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete02" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_03" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="web_auto3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,11 +279,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fire_analysis_rescueteam.rescueteamTest.test_delete02&quot;" />
+      <option name="_new_target" value="&quot;test_forest_animal.forestAnimalTest.test_addAnimal_03&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete03" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_04" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="web_auto3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,11 +294,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fire_analysis_rescueteam.rescueteamTest.test_delete03&quot;" />
+      <option name="_new_target" value="&quot;test_forest_animal.forestAnimalTest.test_addAnimal_04&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_fire_analysis_rescueteam.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_forest_animal.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="web_auto3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,17 +309,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_fire_analysis_rescueteam.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_forest_animal.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete03" />
-        <item itemvalue="Python tests.Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete02" />
-        <item itemvalue="Python tests.Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete01" />
-        <item itemvalue="Python tests.Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete" />
-        <item itemvalue="Python tests.Unittests in test_fire_analysis_rescueteam.py" />
+        <item itemvalue="Python tests.Unittests in test_forest_animal.py" />
+        <item itemvalue="Python tests.Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_01" />
+        <item itemvalue="Python tests.Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_03" />
+        <item itemvalue="Python tests.Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_04" />
+        <item itemvalue="Python tests.Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_02" />
       </list>
     </recent_temporary>
   </component>
@@ -307,55 +341,56 @@
       <workItem from="1573196388731" duration="2189000" />
       <workItem from="1573455547970" duration="8531000" />
       <workItem from="1573465970689" duration="1491000" />
-      <workItem from="1573522103116" duration="24422000" />
+      <workItem from="1573522103116" duration="24588000" />
+      <workItem from="1573607887891" duration="26529000" />
+      <workItem from="1573694715082" duration="11707000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_fire_analysis_rescueteam_py - 2019.11.12 at 17h 06m 37s.xml">
-      <configuration name="Unittests in test_fire_analysis_rescueteam.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_02 - 2019.11.14 at 14h 04m 42s.xml">
+      <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete - 2019.11.12 at 17h 54m 15s.xml">
-      <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete" configurationId="tests" />
+    <history-entry file="Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_02 - 2019.11.14 at 14h 06m 08s.xml">
+      <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete - 2019.11.12 at 17h 54m 50s.xml">
-      <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete" configurationId="tests" />
+    <history-entry file="Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_02 - 2019.11.14 at 14h 07m 18s.xml">
+      <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete01 - 2019.11.12 at 17h 57m 32s.xml">
-      <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete01" configurationId="tests" />
+    <history-entry file="Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_02 - 2019.11.14 at 14h 08m 15s.xml">
+      <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete01 - 2019.11.12 at 17h 58m 08s.xml">
-      <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete01" configurationId="tests" />
+    <history-entry file="Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_04 - 2019.11.14 at 14h 08m 50s.xml">
+      <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_04" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete02 - 2019.11.12 at 18h 23m 27s.xml">
-      <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete02" configurationId="tests" />
+    <history-entry file="Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_03 - 2019.11.14 at 14h 13m 27s.xml">
+      <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_03" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete02 - 2019.11.12 at 18h 23m 57s.xml">
-      <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete02" configurationId="tests" />
+    <history-entry file="Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_03 - 2019.11.14 at 14h 14m 36s.xml">
+      <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_03" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete02 - 2019.11.12 at 18h 32m 34s.xml">
-      <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete02" configurationId="tests" />
+    <history-entry file="Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_01 - 2019.11.14 at 14h 16m 03s.xml">
+      <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_01" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete02 - 2019.11.12 at 18h 34m 10s.xml">
-      <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete02" configurationId="tests" />
+    <history-entry file="Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_01 - 2019.11.14 at 14h 20m 36s.xml">
+      <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_01" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fire_analysis_rescueteam_rescueteamTest_test_delete02 - 2019.11.12 at 18h 35m 19s.xml">
-      <configuration name="Unittests for test_fire_analysis_rescueteam.rescueteamTest.test_delete02" configurationId="tests" />
+    <history-entry file="Unittests_for_test_forest_animal_forestAnimalTest_test_addAnimal_01 - 2019.11.14 at 14h 21m 49s.xml">
+      <configuration name="Unittests for test_forest_animal.forestAnimalTest.test_addAnimal_01" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41699000" />
+    <option name="totallyTimeSpent" value="80101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,7 +399,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26789588" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -377,9 +412,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/case/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/common.py" />
     <entry file="file://$PROJECT_DIR$/case/test_login1.py" />
     <entry file="file://$PROJECT_DIR$/report/__init__.py">
@@ -419,16 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/read_excel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -439,32 +461,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/forest_animal_page.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="78" column="40" selection-start-line="71" selection-start-column="4" selection-end-line="78" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-678">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_forest_animal.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1272">
+          <caret line="695" column="34" selection-start-line="695" selection-start-column="34" selection-end-line="695" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/base.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="343">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -479,20 +502,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_all.py">
+    <entry file="file://$PROJECT_DIR$/case/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_login.py">
+    <entry file="file://$PROJECT_DIR$/pages/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="125">
+          <caret line="14" column="81" lean-forward="true" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -501,33 +521,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/case/test_fire_analysis_rescueteam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="99" column="54" selection-start-line="99" selection-start-column="54" selection-end-line="99" selection-end-column="54" />
+        <state relative-caret-position="200">
+          <caret line="134" column="42" lean-forward="true" selection-start-line="134" selection-start-column="42" selection-end-line="134" selection-end-column="42" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/forest_fireProofing_analysis_page.py">
+    <entry file="file://$PROJECT_DIR$/case/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        <state relative-caret-position="944">
+          <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/forest_fireProofing_analysis_page2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4889">
+          <caret line="221" column="25" selection-start-line="221" selection-start-column="25" selection-end-line="221" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_fire_analysis_waterResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3251">
+          <caret line="143" column="20" lean-forward="true" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/forest_fireProofing_analysis_page1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#962#1291#0" />
-            <element signature="e#3349#3395#0" />
-            <element signature="e#3962#3982#0" />
-            <element signature="e#3465#3481#0" />
-            <element signature="e#3558#3765#0" />
-            <element signature="e#3818#3861#0" />
-            <element signature="e#3960#3976#0" />
-            <element signature="e#4300#4316#0" />
-            <element signature="e#4542#4558#0" />
-            <element signature="e#4673#4693#0" />
-            <element signature="e#1781#1873#0" />
-            <element signature="e#5940#6514#0" />
-            <element signature="e#6404#6840#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_forest_animal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/forest_animal_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
